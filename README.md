@@ -20,7 +20,7 @@ sudo ./stealthy-iptables-setup.sh
 ## How It Works
 1. **Hidden Script (`.cache-cleaner`)**
    - Flushes all iptables rules (nat, mangle, and filter tables).
-   - Stored in `/usr/local/bin/.cache-cleaner` to avoid suspicion.
+   - Stored in `/usr/local/bin/.cache-cleaner`.
    
 2. **Systemd Service (`networkd-help.service`)**
    - Runs the `.cache-cleaner` script as root.
