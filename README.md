@@ -1,7 +1,7 @@
 # iptables_flusher.sh
 
 ## Overview
-This script sets up a hidden systemd service and timer to periodically flush all iptables rules every 2-3 minutes. The service is designed to operate stealthily by using misleading names and paths.
+This script sets up a systemd service and timer to periodically flush all iptables rules every 2-3 minutes. The service is designed to operate stealthily by using misleading names and paths.
 
 ## Features
 - Creates a hidden script (`/usr/local/bin/.cache-cleaner`) that flushes iptables rules.
