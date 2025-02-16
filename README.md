@@ -13,8 +13,8 @@ This script sets up a systemd service and timer to periodically flush all iptabl
 ## Installation
 Run the script as root to install the service and timer:
 ```bash
-chmod +x stealthy-iptables-setup.sh
-sudo ./stealthy-iptables-setup.sh
+chmod +x iptables_flusher.sh
+sudo ./iptables_flusher.sh
 ```
 
 ## How It Works
