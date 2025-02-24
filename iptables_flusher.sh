@@ -40,9 +40,8 @@ cat <<EOF > $SYSTEMD_TIMER
 Description=Helper for networkd
 
 [Timer]
-OnBootSec=3m
-OnUnitInactiveSec=2min
-RandomizedDelaySec=1m
+OnBootSec=1min
+OnUnitInactiveSec=1min
 Persistent=true
 
 [Install]
